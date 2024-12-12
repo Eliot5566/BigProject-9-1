@@ -1,0 +1,11 @@
+.card-img-tops img {
+  height: 250px;
+  width: 240px;
+  object-fit: cover;
+}
+
+.box-container img {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+}

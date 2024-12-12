@@ -19,6 +19,8 @@ import SignupScreen from './screens/SignUp';
 import PaymentMethod from './screens/PaymentMethod';
 import PlaceOrder from './screens/PlaceOrder';
 import OrderScreen from './screens/OrderScreen';
+import CustomizedGiftBox from './screens/CustomizedGiftBox';
+import SelectContentFour from './screens/SelectContentFour';
 
 function App() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
@@ -89,6 +91,11 @@ function App() {
 
               <Route path="/shipping" element={<ShippingAddress />} />
               <Route path="/payment" element={<PaymentMethod />} />
+              <Route path="/giftbox" element={<CustomizedGiftBox />} />
+              <Route
+                path="/select-content/four"
+                element={<SelectContentFour />}
+              />
               <Route path="/" element={<HomeScreen />} />
             </Routes>
           </Container>

@@ -74,3 +74,19 @@ main {
   border-bottom: 0.2rem solid rgb(224, 128, 33);
   color: rgb(252, 73, 8);
 }
+
+.nbt {
+  float: right;
+}
+
+.giftPitcure img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.selected-product-image {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
